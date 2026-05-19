@@ -1,0 +1,902 @@
+======================================================================
+CHIMBORAZO PLAYGROUND PRIORITIES SURVEY — DETERMINISTIC CODING
+======================================================================
+Raw rows in CSV:                273
+Unique respondents (deduped):     267
+Respondents with multiple subs:   6
+Extra rows removed via dedupe:    6
+
+Dedupe resolutions (latest non-blank Q2 per respondent is kept):
+  anon_49f8133c8e  (2 subs, kept ts=14/05/2026 14:09:48)
+     [1] 'Address maintenance, health and safety needs in the park bef'
+     [2] 'Share full plans and invite public review and input before a'
+  anon_f1207c7f8e  (2 subs, kept ts=17/05/2026 11:36:12)
+     [1] 'Reverse construction on the new petanque courts, and redirec'
+     [2] 'Reverse construction on the new petanque courts, and redirec'
+  anon_edeea8b88f  (2 subs, kept ts=17/05/2026 10:32:56)
+     [1] 'Address maintenance, health and safety needs in the park bef'
+     [2] 'Reverse construction on the new petanque courts, and redirec'
+  anon_9dfb6d0077  (2 subs, kept ts=16/05/2026 07:22:45)
+     [1] 'Share full plans and invite public review and input before a'
+     [2] ''
+  anon_9e8fd13f83  (2 subs, kept ts=17/05/2026 13:06:31)
+     [1] 'Correct the identified communications gap.   Finish the cour'
+     [2] ''
+  anon_1702ecaf6d  (2 subs, kept ts=18/05/2026 21:55:35)
+     [1] 'You seem to have omitted the most logical answer which is bu'
+     [2] 'Build the courts. They were approved. Why is this survey wri'
+
+----------------------------------------------------------------------
+Q2 — single primary code per response (n=267)
+----------------------------------------------------------------------
+    71  (26.6%)  A1_REVERSE
+    46  (17.2%)  A2_MAINTENANCE_FIRST
+    51  (19.1%)  A3_SHARE_PLANS
+     9  ( 3.4%)  A_WRITEIN_REVERSE
+     1  ( 0.4%)  A_WRITEIN_MAINTENANCE
+     6  ( 2.2%)  A_WRITEIN_SHARE_PLANS
+    12  ( 4.5%)  B1_CONDITIONAL_CONTINUE
+    15  ( 5.6%)  B2_BUILD_NEW_REMOVE_OLD
+     3  ( 1.1%)  B3_FINISH_AS_PLANNED
+    31  (11.6%)  B4_WRITEIN_CONTINUE
+     8  ( 3.0%)  B5_CONTINUE_PLUS_PROCESS
+     5  ( 1.9%)  M_MIXED_OR_DEPENDS
+     3  ( 1.1%)  Z1_BLANK
+     5  ( 1.9%)  Z2_JUNK
+     1  ( 0.4%)  Z3_FEATURE_REQUEST
+  ----
+   267  total
+
+Three-way family roll-up:
+  REVERSE (A1 + writein-reverse):         80 (30.0%)
+  PAUSE for process (A2 + A3 + variants):  104 (39.0%)
+  CONTINUE (all B family inc. B5):        69 (25.8%)
+  Mixed:                                    5 ( 1.9%)
+  Unusable:                                 9 ( 3.4%)
+
+  ... of CONTINUE, pure:   61
+  ... of CONTINUE, bridge (B5):    8
+
+----------------------------------------------------------------------
+Q3 — multi-select priorities (n=267)
+----------------------------------------------------------------------
+   183  (68.5%)  PRI_RESTROOMS_WATER
+    96  (36.0%)  PRI_LANDSCAPING
+    85  (31.8%)  PRI_EXISTING_COURTS
+    90  (33.7%)  PRI_WATER_FEATURE
+    69  (25.8%)  PRI_MULCH
+    52  (19.5%)  PRI_EXPAND_USES
+    59  (22.1%)  PRI_PARK_HOUSE
+    52  (19.5%)  PRI_NEW_SPACES
+     1  ( 0.4%)  PRI_FENCED_DOGS
+
+----------------------------------------------------------------------
+Q1 — free-text themes (out of 184 non-blank responses)
+----------------------------------------------------------------------
+    55  (29.9%)  PROCESS_TRANSPARENCY
+    44  (23.9%)  PETANQUE_SUPPORTIVE
+    42  (22.8%)  BROADER_OVER_NICHE
+    40  (21.7%)  GRATITUDE
+    33  (17.9%)  GREEN_SPACE
+    31  (16.8%)  KIDS_FAMILIES
+    22  (12.0%)  TAX_SPENDING
+    16  ( 8.7%)  BATHROOMS_MAINTENANCE
+    14  ( 7.6%)  FOCP_REPRESENTATION
+
+----------------------------------------------------------------------
+Q4 — free-text themes (out of 125 non-blank responses)
+----------------------------------------------------------------------
+    22  (17.6%)  TRANSPARENCY_PROCESS
+    20  (16.0%)  KIDS_FAMILIES
+    16  (12.8%)  GRATITUDE
+    16  (12.8%)  GREEN_SPACE
+    11  ( 8.8%)  INCLUSIVITY_FORUM
+     9  ( 7.2%)  TAX_SPENDING
+     9  ( 7.2%)  BATHROOMS_MAINTENANCE
+     3  ( 2.4%)  HISTORICAL_DECISION_CHAIN
+     2  ( 1.6%)  OPPOSITION_DEFEND_PROJECT
+
+======================================================================
+FULL Q2 DUMP
+======================================================================
+
+[A2_MAINTENANCE_FIRST] anon_69dc5e698d
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A2_MAINTENANCE_FIRST] anon_144f3d32dd
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A2_MAINTENANCE_FIRST] anon_ba3235b340
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A1_REVERSE] anon_9c18002606
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A3_SHARE_PLANS] anon_02f79b7c63
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A1_REVERSE] anon_65d7156014
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A_WRITEIN_SHARE_PLANS] anon_305c25184c
+  'Start over. Study what is the best value and impact for park improvements. Be systematic and systemic in making a new plan. '
+
+[A1_REVERSE] anon_4ba928ebce
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A1_REVERSE] anon_5922d4a824
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A3_SHARE_PLANS] anon_1e2f11918d
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A3_SHARE_PLANS] anon_a54f44b13e
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A3_SHARE_PLANS] anon_49f8133c8e
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A1_REVERSE] anon_4d00c148d9
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A2_MAINTENANCE_FIRST] anon_f6bb75da0c
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A1_REVERSE] anon_e605de3e5e
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A1_REVERSE] anon_276a6f2c67
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A3_SHARE_PLANS] anon_a520e637af
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A2_MAINTENANCE_FIRST] anon_7581f00f2d
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A2_MAINTENANCE_FIRST] anon_45410edaf5
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A3_SHARE_PLANS] anon_df6745e085
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A1_REVERSE] anon_64080c2998
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[B2_BUILD_NEW_REMOVE_OLD] anon_fa2028ead6
+  'Find a way to build the new petanque courts, and remove the old ones for other park use.'
+
+[A3_SHARE_PLANS] anon_a61f3b31dc
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A1_REVERSE] anon_b50677bf4f
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A2_MAINTENANCE_FIRST] anon_f3bcd31f8a
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A1_REVERSE] anon_1d91074dff
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A1_REVERSE] anon_623e7503ba
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[B4_WRITEIN_CONTINUE] anon_aa98fed77c
+  "Just fininish the courts, you don't even need to get rid of the old ones"
+
+[A1_REVERSE] anon_ac535979ca
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A2_MAINTENANCE_FIRST] anon_687a963f92
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[B4_WRITEIN_CONTINUE] anon_07f8d6731c
+  'Continue as planned with petanque court'
+
+[A1_REVERSE] anon_6e01be97d7
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A_WRITEIN_MAINTENANCE] anon_fa19f2626b
+  'fix the bathrooms '
+
+[A_WRITEIN_REVERSE] anon_227a1bf86c
+  'I think there is a more than fair amount of pétanque space currently in the park. I think the grassy area should be re-sod so it’s not gravelly, and can be more of a mixed use space, perhaps an additional soccer goal! '
+
+[A2_MAINTENANCE_FIRST] anon_c8e92c502e
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[B2_BUILD_NEW_REMOVE_OLD] anon_f09b8db698
+  'Find a way to build the new petanque courts, and remove the old ones for other park use.'
+
+[M_MIXED_OR_DEPENDS] anon_4d0bcc50b3
+  'Options 1, 2 and maybe 3!'
+
+[A1_REVERSE] anon_9d7de4e3e4
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A1_REVERSE] anon_3aa70f663b
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A3_SHARE_PLANS] anon_1c72a6a2b7
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A1_REVERSE] anon_1c3d29c6f8
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A_WRITEIN_REVERSE] anon_7b809059af
+  'put it to grass'
+
+[A_WRITEIN_REVERSE] anon_bef5dfb04d
+  'put in grass'
+
+[A3_SHARE_PLANS] anon_bb501ecdc3
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A1_REVERSE] anon_ab9fcc6dfe
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[B5_CONTINUE_PLUS_PROCESS] anon_950e473e3a
+  'Go ahead and finish the courts, no sense in having a paused construction site lingering there. Next time be better about public notice ahead of time.'
+
+[A1_REVERSE] anon_f1207c7f8e
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A1_REVERSE] anon_a5c966188a
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[Z1_BLANK] anon_bc77639ace
+  ''
+
+[A1_REVERSE] anon_adfa81f099
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A1_REVERSE] anon_9b4fe6f786
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A2_MAINTENANCE_FIRST] anon_f662984c9d
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A2_MAINTENANCE_FIRST] anon_b1b0f05f64
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[B4_WRITEIN_CONTINUE] anon_3ee7d04a48
+  'Follow the current plan, finish the courts and the associated improvements that are part if it, which include replacement for the current children’s area surface. '
+
+[A_WRITEIN_REVERSE] anon_070d69901a
+  'Remove the Pentanque Courts all together and develop the land that is family and kid friendly.  The Petanque Mafia has reigned long enough.'
+
+[B4_WRITEIN_CONTINUE] anon_2b46a7b587
+  'Build the Petanque courts as planned'
+
+[B3_FINISH_AS_PLANNED] anon_7857cdcb9e
+  'Finish building the new courts and proceed with the other playground improvements as planned.'
+
+[B5_CONTINUE_PLUS_PROCESS] anon_f00e244611
+  'Build as planned, be more transparent in future.'
+
+[B1_CONDITIONAL_CONTINUE] anon_45cfa2c713
+  'Build the new petanque courts as planned only after sharing full plans for public review and notice.'
+
+[A1_REVERSE] anon_a959ff647b
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A2_MAINTENANCE_FIRST] anon_0e983f543c
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A1_REVERSE] anon_09cb192bc3
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[B1_CONDITIONAL_CONTINUE] anon_66d1010998
+  'Build the new petanque courts as planned only after sharing full plans for public review and notice.'
+
+[B4_WRITEIN_CONTINUE] anon_804fd3231b
+  'Finish new courts, keep existing courts. '
+
+[B4_WRITEIN_CONTINUE] anon_b26706b33b
+  'Finish building the new approved courts and keep the existing courts.   '
+
+[M_MIXED_OR_DEPENDS] anon_7216889861
+  'It depends on how much money has already been spent on construction. I don\'t want the City to waste resources. If significant expenditures have already been made, then find a way to finish the new courts but remove the old ones to "replace" the green space. If not much has been spent, redirect resources to other improvements. '
+
+[A1_REVERSE] anon_ed64f6f25f
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A_WRITEIN_SHARE_PLANS] anon_b39cdebadf
+  'Share full plans and invite public review before adopting changings, AND adress maintenance, health, and safety needs BEFORE ADDING NEW COURTS. Especially courts that are HARDLY utilized. '
+
+[A1_REVERSE] anon_5e8bd763e6
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A_WRITEIN_SHARE_PLANS] anon_0dfb88e5e2
+  'Share plans and invite public review, while also addressing the maintenance and renovation of the bathroom building. Or demo it.'
+
+[A2_MAINTENANCE_FIRST] anon_961c3dc89a
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A3_SHARE_PLANS] anon_55c3300631
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[B4_WRITEIN_CONTINUE] anon_64e0002d9e
+  'Build the courts as plannedd.'
+
+[A3_SHARE_PLANS] anon_2cefe5dacb
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A1_REVERSE] anon_b257fd0ff4
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[B5_CONTINUE_PLUS_PROCESS] anon_93bbfdd8d7
+  'Share the timeline, process and plan.  Complete the courts.   Learn how to engage folks as plans turn into action'
+
+[A1_REVERSE] anon_9e789202db
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[B4_WRITEIN_CONTINUE] anon_776dc2d284
+  'Restore the lawn space at Chimborazo playground. Build the courts at a different park-- Oakwood Playground, Gillies Park, etc'
+
+[B3_FINISH_AS_PLANNED] anon_f3dd66bedd
+  'Finish building the new courts and proceed with the other playground improvements as planned.'
+
+[A2_MAINTENANCE_FIRST] anon_722cc878b5
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[B2_BUILD_NEW_REMOVE_OLD] anon_4056a4f124
+  'Find a way to build the new petanque courts, and remove the old ones for other park use.'
+
+[B1_CONDITIONAL_CONTINUE] anon_2dd5adc270
+  'Build the new petanque courts as planned only after sharing full plans for public review and notice.'
+
+[B3_FINISH_AS_PLANNED] anon_8d82624933
+  'Finish building the new courts and proceed with the other playground improvements as planned.'
+
+[B1_CONDITIONAL_CONTINUE] anon_93e2373868
+  'Build the new petanque courts as planned only after sharing full plans for public review and notice.'
+
+[B4_WRITEIN_CONTINUE] anon_6bba418c58
+  'By unpausing, and following the current plan of improvements to both the pétanque courts and the children’s area, the council would be continuing their good work for residents of all ages. '
+
+[B4_WRITEIN_CONTINUE] anon_ca6c6eca69
+  'Resume construction of the project.'
+
+[A3_SHARE_PLANS] anon_770e528729
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[B1_CONDITIONAL_CONTINUE] anon_972bc64133
+  'Build the new petanque courts as planned only after sharing full plans for public review and notice.'
+
+[A1_REVERSE] anon_f9ee8b44c8
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[B4_WRITEIN_CONTINUE] anon_11cd182922
+  'The current plan should be completed as approved and already started. Improvements to the children’s area are included in this option.'
+
+[B4_WRITEIN_CONTINUE] anon_fb6006e038
+  'Please complete the courts as planned. They have already been reviewed.'
+
+[Z3_FEATURE_REQUEST] anon_4a8f100d24
+  'We want pickleball courts.'
+
+[B4_WRITEIN_CONTINUE] anon_a7e0aeed74
+  'Continue with construction as planned which includes both improvements for both the pétanque courts and the children’s playground area.'
+
+[B4_WRITEIN_CONTINUE] anon_adf8ded604
+  'Continue building Petanque courts as planned. '
+
+[B1_CONDITIONAL_CONTINUE] anon_0e4db1d0f4
+  'Build the new petanque courts as planned only after sharing full plans for public review and notice.'
+
+[B1_CONDITIONAL_CONTINUE] anon_8da84d612c
+  'Build the new petanque courts as planned only after sharing full plans for public review and notice.'
+
+[B5_CONTINUE_PLUS_PROCESS] anon_db98102d55
+  'Continue the project while Parks shares a clear phased improvement plan, project budget/timeline, and broader long-term vision for the park. Tell residents when restroom and sanitation improvements are expected, explain why the courts were prioritized first, and provide more visibility into government budget and project sequencing constraints.  From a realistic perspective, if pausing construction delays the remainder of the overall project, I would not recommend it. The core issue does not appear to be the courts themselves, but rather that residents were not adequately informed about what was happening, why decisions were made, or what future improvements are planned.'
+
+[A1_REVERSE] anon_041b4a20b1
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A3_SHARE_PLANS] anon_31bbb7b9ca
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A2_MAINTENANCE_FIRST] anon_58bff663f9
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A3_SHARE_PLANS] anon_ce99b4202e
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[B4_WRITEIN_CONTINUE] anon_e4c02602fd
+  'Resume construction of the pétanque courts as planned which includes improvements to the playground for children.'
+
+[B5_CONTINUE_PLUS_PROCESS] anon_2d7f125f1f
+  'Finish the plans for the new Petanque courts. Digging them up would cost taxpayers more money than necessary. In future have better communication .'
+
+[B4_WRITEIN_CONTINUE] anon_64a4d380f5
+  'build petanque courts as planned'
+
+[B4_WRITEIN_CONTINUE] anon_770ec03a2a
+  'build as planned. address health and safety needs befire new projects are started. '
+
+[B2_BUILD_NEW_REMOVE_OLD] anon_4f84861882
+  'Find a way to build the new petanque courts, and remove the old ones for other park use.'
+
+[A2_MAINTENANCE_FIRST] anon_19096d8f61
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[B2_BUILD_NEW_REMOVE_OLD] anon_14623bdbc2
+  'Find a way to build the new petanque courts, and remove the old ones for other park use.'
+
+[Z1_BLANK] anon_63c794e097
+  ''
+
+[A1_REVERSE] anon_2ecc1a3cbe
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[B4_WRITEIN_CONTINUE] anon_f42a12a239
+  'Finish the Pétanque courts as part of a park improvement, including playground equipment, bathrooms, and shed building renovation, other items in the original plans submitted'
+
+[A3_SHARE_PLANS] anon_1cd7faf53b
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A3_SHARE_PLANS] anon_93063174e7
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A3_SHARE_PLANS] anon_4fb17c2085
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A_WRITEIN_REVERSE] anon_5168d0abea
+  "Reverse construction and fix the bathrooms. There is an entire world full of examples of how to keep transients out of the bathrooms, so let's take a page from another city and not for the parents to wipe their kids' butts in a plastic box that holds poop."
+
+[B4_WRITEIN_CONTINUE] anon_b8bed97509
+  'Please continue with the improvement on the pétanque courts in such a lovely community park.  And what a treasure to have the only courts in the city for such a fast growing sport for all age groups '
+
+[M_MIXED_OR_DEPENDS] anon_b981193116
+  'All of these are options and should be utilized rather than only being able to select one path forward. Another option is to renovate the current courts.'
+
+[A2_MAINTENANCE_FIRST] anon_c938bb1408
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[Z2_JUNK] anon_ba10719b71
+  'Alexander Lyons'
+
+[A3_SHARE_PLANS] anon_e8b993686f
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[B1_CONDITIONAL_CONTINUE] anon_8b82d19d2c
+  'Build the new petanque courts as planned only after sharing full plans for public review and notice.'
+
+[A3_SHARE_PLANS] anon_f6d04083fb
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A1_REVERSE] anon_edeea8b88f
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A3_SHARE_PLANS] anon_7d18630eb9
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A3_SHARE_PLANS] anon_82854a07d1
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A2_MAINTENANCE_FIRST] anon_55ea00da92
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A1_REVERSE] anon_2b85a78a13
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[B4_WRITEIN_CONTINUE] anon_e27ba210bc
+  'Continue building pétanque courts as planned'
+
+[A3_SHARE_PLANS] anon_a1aa1dad0a
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A1_REVERSE] anon_88bb4a5388
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A3_SHARE_PLANS] anon_dd3200d079
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A3_SHARE_PLANS] anon_a0360377e8
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A1_REVERSE] anon_296cb4e355
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A1_REVERSE] anon_b17de59d2e
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[B4_WRITEIN_CONTINUE] anon_ed3fd946e2
+  'Build the pétanque courts'
+
+[A3_SHARE_PLANS] anon_9dfb6d0077
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A1_REVERSE] anon_14a1f7b3c1
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A2_MAINTENANCE_FIRST] anon_fae8ee84c6
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A3_SHARE_PLANS] anon_ba2042ed28
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A1_REVERSE] anon_9daa14228c
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A3_SHARE_PLANS] anon_3c156c8e61
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A2_MAINTENANCE_FIRST] anon_f75dd5a7de
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A3_SHARE_PLANS] anon_0bb6893a02
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[Z2_JUNK] anon_a0cf0c4d17
+  'phillip perrow'
+
+[A3_SHARE_PLANS] anon_3e614fa063
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A3_SHARE_PLANS] anon_547ee3ba5c
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A2_MAINTENANCE_FIRST] anon_c768473356
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A1_REVERSE] anon_855ce4e404
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A3_SHARE_PLANS] anon_3cbe086e9f
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A2_MAINTENANCE_FIRST] anon_9bfbbb96a6
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A3_SHARE_PLANS] anon_d53e5cd2ef
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A1_REVERSE] anon_942bbe0113
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A1_REVERSE] anon_d45a066ecd
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A1_REVERSE] anon_341df2a6bd
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A3_SHARE_PLANS] anon_abe1950375
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A3_SHARE_PLANS] anon_aba08b5bf0
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A2_MAINTENANCE_FIRST] anon_fdff176ff7
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A1_REVERSE] anon_4ece797077
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[M_MIXED_OR_DEPENDS] anon_e76325953e
+  'Continue the expansion as planned and also address maintenance, health and safety needs including the water fountain and restrooms.'
+
+[B2_BUILD_NEW_REMOVE_OLD] anon_e8f233871f
+  'Find a way to build the new petanque courts, and remove the old ones for other park use.'
+
+[A2_MAINTENANCE_FIRST] anon_40d6c86977
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A2_MAINTENANCE_FIRST] anon_56fa6db030
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A_WRITEIN_REVERSE] anon_41d61e9f9d
+  'Improve current pétanque courts and use the rest of the funds and space to benefit the 99.5% of the community that does not play pétanque'
+
+[A1_REVERSE] anon_fca1025224
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A1_REVERSE] anon_0a8b6c9269
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[B5_CONTINUE_PLUS_PROCESS] anon_9e8fd13f83
+  'Correct the identified communications gap.   Finish the courts as approved'
+
+[A1_REVERSE] anon_a2551efcc1
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[B1_CONDITIONAL_CONTINUE] anon_93aa64d1be
+  'Build the new petanque courts as planned only after sharing full plans for public review and notice.'
+
+[A3_SHARE_PLANS] anon_23df48a525
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A2_MAINTENANCE_FIRST] anon_04755378ca
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[B2_BUILD_NEW_REMOVE_OLD] anon_de1970d17e
+  'Find a way to build the new petanque courts, and remove the old ones for other park use.'
+
+[B4_WRITEIN_CONTINUE] anon_b5187c4bba
+  "Option 5 but get the project back on schedule as fast as possible. Now that I'm aware what's going on, I'd like the project to continue as planned. All I was worried about was the lack of notice. If notifying the public results in a time-consuming public engagement process, nobody will ever do it and we'll have this problem again some time in the future. We need to make this as painless as possible."
+
+[A2_MAINTENANCE_FIRST] anon_30a33d2430
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[B5_CONTINUE_PLUS_PROCESS] anon_790d19276d
+  'Unpause the new courts that have already followed existing processes, and if you want to fix the process for your future requests, then work on that.  And stop attacking a wonderful club that has been committed to the park and church hill. '
+
+[B4_WRITEIN_CONTINUE] anon_f21e69f6d9
+  'Add the new courts'
+
+[A2_MAINTENANCE_FIRST] anon_a2cf3333e5
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A3_SHARE_PLANS] anon_a789611aa5
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[B4_WRITEIN_CONTINUE] anon_cad71b092c
+  'Continue to build the pétanque courts and keep the existing courts '
+
+[B4_WRITEIN_CONTINUE] anon_4b01883ad9
+  'To keep existing pétanque courts along with the construction of the new courts '
+
+[A1_REVERSE] anon_76e09b0a45
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A2_MAINTENANCE_FIRST] anon_8b036d9525
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A1_REVERSE] anon_6799d3c989
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A1_REVERSE] anon_556aeee0f8
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A3_SHARE_PLANS] anon_05a67ee049
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[B4_WRITEIN_CONTINUE] anon_6711a94276
+  "Finish the construction - it is an asset to the park.  Support the club as for twenty years they have supported the park by cleaning the grounds, planting trees, and providing a social connection to all ages and all people.  It's a sport that anyone can play and does not require athletic ability.  Many just join in to play while at the park because the club is warm, welcoming and fun.  Though we don't play all the time we would be greatly disappointed to find the courts not supported by the Parks & Recreation or the community.  "
+
+[A3_SHARE_PLANS] anon_d65f22315f
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A1_REVERSE] anon_e3312e60a4
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A2_MAINTENANCE_FIRST] anon_f62a070f2d
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A1_REVERSE] anon_25d2835714
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A1_REVERSE] anon_8d4be0728f
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A2_MAINTENANCE_FIRST] anon_ade18bfdc4
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A3_SHARE_PLANS] anon_42dfd9ab80
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A_WRITEIN_REVERSE] anon_9d6ab83dcc
+  'Reconfigure existing courts to allow for increased number of courts. The open field is regularly utilized by students at Bellevue ES for outdoor PE activities— they need space to wiggle! Increasing shade features, sanitation, and water access would be top of my list as a community member based on how I see it being used now. '
+
+[A2_MAINTENANCE_FIRST] anon_ecdb785ad8
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A1_REVERSE] anon_5ff07322ea
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A_WRITEIN_SHARE_PLANS] anon_a6dd57ef1b
+  "Ideally, the city would address maintenance and health/safety concerns while sharing full plans for public review and input, so that by the time a plan has been finalized, the park itself is in better shape and we'll all have benefitted from this entire process no matter what changes are adopted later."
+
+[A2_MAINTENANCE_FIRST] anon_82aea555d6
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A2_MAINTENANCE_FIRST] anon_bd35242193
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A2_MAINTENANCE_FIRST] anon_85e3a43485
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A2_MAINTENANCE_FIRST] anon_e7e2431b25
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A1_REVERSE] anon_22094af251
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A1_REVERSE] anon_8683805c63
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[B2_BUILD_NEW_REMOVE_OLD] anon_7bf35a79f3
+  'Find a way to build the new petanque courts, and remove the old ones for other park use.'
+
+[A1_REVERSE] anon_1efb2a68c9
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A3_SHARE_PLANS] anon_469790b4ce
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A2_MAINTENANCE_FIRST] anon_1eddc6ad65
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[B5_CONTINUE_PLUS_PROCESS] anon_a6c282f71a
+  'The petanque courts were approved and construction has begun so it should be completed. If people are upset about the loss of green space then that should be balanced out by planting more trees or flower beds. Perhaps even bring in a landscape architect to design the walking paths to make the park look like a cohesive area. As for the issue of the lack of communication, the park should always communicate changes going forward. '
+
+[B2_BUILD_NEW_REMOVE_OLD] anon_f076eddd45
+  'Find a way to build the new petanque courts, and remove the old ones for other park use.'
+
+[A1_REVERSE] anon_1efa396020
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A2_MAINTENANCE_FIRST] anon_075be956b4
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A1_REVERSE] anon_dea38c2386
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A1_REVERSE] anon_b73cd66fcf
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A3_SHARE_PLANS] anon_a0f9d33ec7
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A1_REVERSE] anon_f27702f66c
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A2_MAINTENANCE_FIRST] anon_be23df8128
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A2_MAINTENANCE_FIRST] anon_700385cabe
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[B4_WRITEIN_CONTINUE] anon_111ec5668e
+  'Build the courts as they were originally designed '
+
+[A3_SHARE_PLANS] anon_9954ca2d38
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A1_REVERSE] anon_57344611c9
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A_WRITEIN_REVERSE] anon_79acf2e852
+  'Can the existing courts be fixed re: drainage issues? Can netting be put up to keep basketballs out of the existing pétanque courts if they say it’s an issue re: playing pétanque? We want to preserve the green space!'
+
+[A1_REVERSE] anon_03e6054d05
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[B4_WRITEIN_CONTINUE] anon_b95623bdf6
+  'Build the courts as they were permitted for.  It is manipulative to leave off this option on the form. Shame on you.'
+
+[B4_WRITEIN_CONTINUE] anon_86cfaeaebf
+  'Resume the project as planned. It is manipulative to leave this obvious option off of the list.'
+
+[B4_WRITEIN_CONTINUE] anon_f16cf6646e
+  'Build the pétanque courts as planned '
+
+[B1_CONDITIONAL_CONTINUE] anon_d568c44fa9
+  'Build the new petanque courts as planned only after sharing full plans for public review and notice.'
+
+[A3_SHARE_PLANS] anon_43e9e9a0e1
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[B2_BUILD_NEW_REMOVE_OLD] anon_ed6fd00022
+  'Find a way to build the new petanque courts, and remove the old ones for other park use.'
+
+[A1_REVERSE] anon_97b508657d
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[B4_WRITEIN_CONTINUE] anon_1702ecaf6d
+  'Build the courts. They were approved. Why is this survey written in a biased manner?  '
+
+[A3_SHARE_PLANS] anon_2d2f0d75f9
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A2_MAINTENANCE_FIRST] anon_cf9d1e10b3
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A_WRITEIN_REVERSE] anon_669bf0c0b0
+  'No new pétanque courts & reverse construction done without approval or input. Fix the bathrooms & shelter'
+
+[A1_REVERSE] anon_e7a8bdba8f
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[B1_CONDITIONAL_CONTINUE] anon_a5a3bdc266
+  'Build the new petanque courts as planned only after sharing full plans for public review and notice.'
+
+[A1_REVERSE] anon_73f247dcaf
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A1_REVERSE] anon_640c06f6a6
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[B2_BUILD_NEW_REMOVE_OLD] anon_dc9a6d9e94
+  'Find a way to build the new petanque courts, and remove the old ones for other park use.'
+
+[A3_SHARE_PLANS] anon_110f81fd66
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A2_MAINTENANCE_FIRST] anon_a98b4fb43b
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[Z2_JUNK] anon_b372bc198b
+  'See above. '
+
+[A3_SHARE_PLANS] anon_f13a7afb50
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A1_REVERSE] anon_00aedda2f9
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[Z2_JUNK] anon_49fa6367f7
+  'Please see above comment'
+
+[A1_REVERSE] anon_42b849c83c
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A2_MAINTENANCE_FIRST] anon_a909d97ea9
+  'Addressing maintenance, health and safety should be done first; all other plans for changes should be submitted '
+
+[Z2_JUNK] anon_b8bdce8f0c
+  'Ryan Wetsel'
+
+[A3_SHARE_PLANS] anon_3c04b57427
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[B2_BUILD_NEW_REMOVE_OLD] anon_a1ae450008
+  'Find a way to build the new petanque courts, and remove the old ones for other park use.'
+
+[B2_BUILD_NEW_REMOVE_OLD] anon_fc6bce90c1
+  'Find a way to build the new petanque courts, and remove the old ones for other park use.'
+
+[B1_CONDITIONAL_CONTINUE] anon_35d66ca35d
+  'Build the new petanque courts as planned only after sharing full plans for public review and notice.'
+
+[A2_MAINTENANCE_FIRST] anon_73db95df8e
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A3_SHARE_PLANS] anon_25c5060491
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A2_MAINTENANCE_FIRST] anon_be5459c4f9
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A1_REVERSE] anon_2e080f3d63
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A3_SHARE_PLANS] anon_e15d794a27
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[B2_BUILD_NEW_REMOVE_OLD] anon_42f25176f3
+  'Find a way to build the new petanque courts, and remove the old ones for other park use.'
+
+[A_WRITEIN_SHARE_PLANS] anon_83c96945ff
+  'Fix the process first. Then, with a real plan shared and real public input, decide whether to complete, reconfigure, or remove. I trust the process more than I trust my own current preference about the courts specifically.'
+
+[A3_SHARE_PLANS] anon_3dee6e170b
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[A2_MAINTENANCE_FIRST] anon_eda1d6dfc1
+  'Address maintenance, health and safety needs in the park before any space is expanded or developed.'
+
+[A1_REVERSE] anon_9fa86cd2b1
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A1_REVERSE] anon_a571edc5ef
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[A3_SHARE_PLANS] anon_595e23c773
+  'Share full plans and invite public review and input before adopting any changes.'
+
+[Z1_BLANK] anon_6fe2dee504
+  ''
+
+[A1_REVERSE] anon_36ae67b6e3
+  'Reverse construction on the new petanque courts, and redirect resources to other improvements.'
+
+[M_MIXED_OR_DEPENDS] anon_7484fd3565
+  'I am OK w/options 1,2,3, and 5. It sounds like the petanque courts needed help. However, this is a game played by a tiny fraction of the community. Public resources should be prioritized for the majority and the neediest. '
+
+[A_WRITEIN_SHARE_PLANS] anon_f28fb3fea3
+  'Do a legitimate master plan for chimborazo playground'
+
+[B2_BUILD_NEW_REMOVE_OLD] anon_e32cae44f3
+  'Find a way to build the new petanque courts, and remove the old ones for other park use.'

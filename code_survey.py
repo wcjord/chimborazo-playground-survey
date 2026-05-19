@@ -20,13 +20,9 @@ Pipeline:
 Output: counts + percentages for Q1 themes, Q2 codes, Q3 priorities, Q4 themes.
 Use --dump-q2 to print every Q2 response with its assigned code (for review).
 
-Run from the repo root:
-    python code_survey.py
-    python code_survey.py --dump-q2
-
-The shipped CSV at data/priorities-responses.csv has emails replaced with
-stable sha256[:10] hashes ("respondent_id" column). The dedupe step groups
-by that id, so the trace is fully reproducible without exposing PII.
+Run from chimbo/:
+    python scripts/code_survey.py
+    python scripts/code_survey.py --dump-q2
 """
 
 import argparse
@@ -89,6 +85,9 @@ WRITEIN_RULES = [
     # M — explicit it-depends / multi-option
     ("it depends", "M_MIXED_OR_DEPENDS"),
     ("options 1, 2", "M_MIXED_OR_DEPENDS"),
+    ("options 1,2", "M_MIXED_OR_DEPENDS"),
+    ("ok w/options", "M_MIXED_OR_DEPENDS"),
+    ("ok w/ options", "M_MIXED_OR_DEPENDS"),
     ("all of these are options", "M_MIXED_OR_DEPENDS"),
     ("continue the expansion as planned and also address maintenance", "M_MIXED_OR_DEPENDS"),
     # Z — junk / not-an-answer
@@ -146,6 +145,10 @@ WRITEIN_RULES = [
     ("share plans and invite public review", "A_WRITEIN_SHARE_PLANS"),
     ("ideally, the city would address maintenance and health/safety concerns while sharing full plans", "A_WRITEIN_SHARE_PLANS"),
     ("start over", "A_WRITEIN_SHARE_PLANS"),
+    ("fix the process first", "A_WRITEIN_SHARE_PLANS"),
+    ("legitimate master plan", "A_WRITEIN_SHARE_PLANS"),
+    ("do a real master plan", "A_WRITEIN_SHARE_PLANS"),
+    ("master plan for chimborazo", "A_WRITEIN_SHARE_PLANS"),
     ("addressing maintenance, health and safety should be done first", "A2_MAINTENANCE_FIRST"),
 ]
 
@@ -196,7 +199,7 @@ def load_and_dedupe(path: Path) -> tuple[list[dict], dict]:
     """Return (deduped rows, dedupe stats). Latest submission per respondent wins.
 
     Accepts either the private CSV (column "Email address") or the public CSV
-    (column "respondent_id" with hashed values) — both are stable identifiers
+    (column "respondent_id" with hashed values) - both are stable identifiers
     that group multiple submissions from the same person.
     """
     with path.open() as f:
@@ -291,11 +294,10 @@ def main() -> None:
     print("=" * 70)
     print("CHIMBORAZO PLAYGROUND PRIORITIES SURVEY — DETERMINISTIC CODING")
     print("=" * 70)
-    print(f"Raw rows in CSV:                  {dedupe['raw_rows']}")
+    print(f"Raw rows in CSV:                {dedupe['raw_rows']}")
     print(f"Unique respondents (deduped):     {dedupe['unique_respondents']}")
     print(f"Respondents with multiple subs:   {dedupe['dupe_respondents']}")
     print(f"Extra rows removed via dedupe:    {dedupe['extra_dupe_rows']}")
-    print(f"Identifier column:                {dedupe['id_col']}")
     print()
     print("Dedupe resolutions (latest non-blank Q2 per respondent is kept):")
     for r in dedupe["dupe_resolutions"]:
@@ -394,9 +396,8 @@ def main() -> None:
         print("=" * 70)
         print("FULL Q2 DUMP")
         print("=" * 70)
-        id_col = dedupe['id_col']
         for r, c in rows_with_code:
-            print(f"\n[{c}] {r[id_col]}")
+            print(f"\n[{c}] {r[dedupe['id_col']]}")
             print(f"  {r[Q2]!r}")
 
 

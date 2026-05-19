@@ -1,0 +1,97 @@
+======================================================================
+CHIMBORAZO PLAYGROUND PRIORITIES SURVEY — DETERMINISTIC CODING
+======================================================================
+Raw rows in CSV:                273
+Unique respondents (deduped):     267
+Respondents with multiple subs:   6
+Extra rows removed via dedupe:    6
+
+Dedupe resolutions (latest non-blank Q2 per respondent is kept):
+  anon_49f8133c8e  (2 subs, kept ts=14/05/2026 14:09:48)
+     [1] 'Address maintenance, health and safety needs in the park bef'
+     [2] 'Share full plans and invite public review and input before a'
+  anon_f1207c7f8e  (2 subs, kept ts=17/05/2026 11:36:12)
+     [1] 'Reverse construction on the new petanque courts, and redirec'
+     [2] 'Reverse construction on the new petanque courts, and redirec'
+  anon_edeea8b88f  (2 subs, kept ts=17/05/2026 10:32:56)
+     [1] 'Address maintenance, health and safety needs in the park bef'
+     [2] 'Reverse construction on the new petanque courts, and redirec'
+  anon_9dfb6d0077  (2 subs, kept ts=16/05/2026 07:22:45)
+     [1] 'Share full plans and invite public review and input before a'
+     [2] ''
+  anon_9e8fd13f83  (2 subs, kept ts=17/05/2026 13:06:31)
+     [1] 'Correct the identified communications gap.   Finish the cour'
+     [2] ''
+  anon_1702ecaf6d  (2 subs, kept ts=18/05/2026 21:55:35)
+     [1] 'You seem to have omitted the most logical answer which is bu'
+     [2] 'Build the courts. They were approved. Why is this survey wri'
+
+----------------------------------------------------------------------
+Q2 — single primary code per response (n=267)
+----------------------------------------------------------------------
+    71  (26.6%)  A1_REVERSE
+    46  (17.2%)  A2_MAINTENANCE_FIRST
+    51  (19.1%)  A3_SHARE_PLANS
+     9  ( 3.4%)  A_WRITEIN_REVERSE
+     1  ( 0.4%)  A_WRITEIN_MAINTENANCE
+     6  ( 2.2%)  A_WRITEIN_SHARE_PLANS
+    12  ( 4.5%)  B1_CONDITIONAL_CONTINUE
+    15  ( 5.6%)  B2_BUILD_NEW_REMOVE_OLD
+     3  ( 1.1%)  B3_FINISH_AS_PLANNED
+    31  (11.6%)  B4_WRITEIN_CONTINUE
+     8  ( 3.0%)  B5_CONTINUE_PLUS_PROCESS
+     5  ( 1.9%)  M_MIXED_OR_DEPENDS
+     3  ( 1.1%)  Z1_BLANK
+     5  ( 1.9%)  Z2_JUNK
+     1  ( 0.4%)  Z3_FEATURE_REQUEST
+  ----
+   267  total
+
+Three-way family roll-up:
+  REVERSE (A1 + writein-reverse):         80 (30.0%)
+  PAUSE for process (A2 + A3 + variants):  104 (39.0%)
+  CONTINUE (all B family inc. B5):        69 (25.8%)
+  Mixed:                                    5 ( 1.9%)
+  Unusable:                                 9 ( 3.4%)
+
+  ... of CONTINUE, pure:   61
+  ... of CONTINUE, bridge (B5):    8
+
+----------------------------------------------------------------------
+Q3 — multi-select priorities (n=267)
+----------------------------------------------------------------------
+   183  (68.5%)  PRI_RESTROOMS_WATER
+    96  (36.0%)  PRI_LANDSCAPING
+    85  (31.8%)  PRI_EXISTING_COURTS
+    90  (33.7%)  PRI_WATER_FEATURE
+    69  (25.8%)  PRI_MULCH
+    52  (19.5%)  PRI_EXPAND_USES
+    59  (22.1%)  PRI_PARK_HOUSE
+    52  (19.5%)  PRI_NEW_SPACES
+     1  ( 0.4%)  PRI_FENCED_DOGS
+
+----------------------------------------------------------------------
+Q1 — free-text themes (out of 184 non-blank responses)
+----------------------------------------------------------------------
+    55  (29.9%)  PROCESS_TRANSPARENCY
+    44  (23.9%)  PETANQUE_SUPPORTIVE
+    42  (22.8%)  BROADER_OVER_NICHE
+    40  (21.7%)  GRATITUDE
+    33  (17.9%)  GREEN_SPACE
+    31  (16.8%)  KIDS_FAMILIES
+    22  (12.0%)  TAX_SPENDING
+    16  ( 8.7%)  BATHROOMS_MAINTENANCE
+    14  ( 7.6%)  FOCP_REPRESENTATION
+
+----------------------------------------------------------------------
+Q4 — free-text themes (out of 125 non-blank responses)
+----------------------------------------------------------------------
+    22  (17.6%)  TRANSPARENCY_PROCESS
+    20  (16.0%)  KIDS_FAMILIES
+    16  (12.8%)  GRATITUDE
+    16  (12.8%)  GREEN_SPACE
+    11  ( 8.8%)  INCLUSIVITY_FORUM
+     9  ( 7.2%)  TAX_SPENDING
+     9  ( 7.2%)  BATHROOMS_MAINTENANCE
+     3  ( 2.4%)  HISTORICAL_DECISION_CHAIN
+     2  ( 1.6%)  OPPOSITION_DEFEND_PROJECT

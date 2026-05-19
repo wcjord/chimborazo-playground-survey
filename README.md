@@ -5,9 +5,11 @@ Chimborazo Playground (Richmond, VA, Church Hill neighborhood).
 
 ## Quick links
 
-- **[Survey responses (CSV)](data/priorities-responses.csv)** — 251 raw submissions, emails hashed to `anon_xxxxxxxxxx` IDs.
+- **[Survey responses (CSV)](data/priorities-responses.csv)** — 273 raw submissions / 267 unique respondents after dedupe; emails hashed to `anon_xxxxxxxxxx` IDs.
 - **[Petition signers (CSV)](data/petition-responses.csv)** — 250 signers. Names and emails removed; awareness Q&A preserved.
 - **[Coding script](code_survey.py)** — single Python file, no dependencies, reproduces every count in the written synthesis.
+- **[Saved coding output](coding-output.txt)** — what the script printed when run against this data. Skip running the script if you just want to read the numbers.
+- **[Per-response Q2 dump](coding-output-dump.txt)** — every Q2 response with its assigned code, for spot-checking judgment calls.
 
 ## Voices from the survey
 
