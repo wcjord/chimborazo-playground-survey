@@ -15,6 +15,26 @@ A small curated selection. Same `anon_` IDs as in the CSV, so you can find the
 full record. The selection tries to represent the range of views, not just the
 majority position.
 
+### From parents and playground regulars
+
+> "I am a Church Hill resident and frequent user of the playground as a mom with two small kids. I would have loved for more input. However, progress on parks takes forever. Reversing the work will cost more money and the park will not be better for it."
+> *— anon_a5a3bdc266*
+
+> "I've lived in this neighborhood for 12 years and our two children have been raised here. We love and used Chimborazo untold times. As my children have grown older the green spaces in the park are the most frequented: playing catch, throwing the lacrosse ball, running around and riding bikes."
+> *— anon_110f81fd66*
+
+> "Working restrooms for our kids and re-mulching or re-surfacing of the playground are our family's top priorities. There's nowhere for them to go to the bathroom while we're at the park, and within the existing mulch there is a cotton-like substance that comes up from the ground and the kids' feet get tangled in it. There are also exposed roots everywhere that they trip on."
+> *— anon_56fa6db030*
+
+> "It would be wonderful if we had an alternative to the mulch and dirt on the playground. I always have to give my child a bath after using the playground because she becomes filthy and covered in dirt every time."
+> *— anon_a5c966188a*
+
+> "My family spends 4–10 hours a week at the Chimborazo Playground, yet I never saw any information about the petanque expansion — or about other recent additions, like the soccer goal, basketball hoop, or climbing structure."
+> *— anon_1eddc6ad65*
+
+> "I'm a teacher at a local Church Hill school. The elementary students and myself are actually writing this survey together! They use the playground weekly for tennis and P.E. lessons. Students report falling on the gravel and would like more green space to be able to run and play games, like soccer."
+> *— anon_2b85a78a13*
+
 ### On the communication gap
 
 > "I believe much of the frustration surrounding the new petanque courts is the result of a communication and transparency failure from the City and Parks Department, not from the petanque community itself."
