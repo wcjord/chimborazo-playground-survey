@@ -4,7 +4,7 @@
 Pipeline:
   1. Load priorities-responses.csv
   2. Dedupe by lowercased email. Latest submission (by Timestamp) wins.
-     Justification: 6 emails (out of 251 rows) have multiple submissions.
+     Justification: 6 emails (out of 273 rows) have multiple submissions.
      In every observed dupe, either (a) the later submission was blank
      (the form's confirmation re-submit), (b) the responses were identical,
      or (c) the respondent revised their answer; in case (c) treating the
